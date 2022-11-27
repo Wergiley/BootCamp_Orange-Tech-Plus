@@ -14,3 +14,5 @@ function maiorIdade(idade) {
 }
 
 maiorIdade(25);
+
+// exercício da aula: faça um algoritmo da aula anterior de formas de pagamento com micro funções.
