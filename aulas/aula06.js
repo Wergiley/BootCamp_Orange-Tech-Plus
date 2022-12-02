@@ -1,6 +1,6 @@
 // Aula: Criando objetos e classes em JS
 
-// objetos
+// objetos e classes
 const pessoa = {nome: "Vitor", idade: 25};
 
 console.log(pessoa.nome);
@@ -29,9 +29,16 @@ pessoa2.descrever();
 class Pessoa3 {
     nome;
     idade;
+    nascimento;
+
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+        this.nascimento = 2022 - idade;
+    }
 
     descrever() {
-        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade}`);
+        console.log(`Meu nome é ${this.nome} e minha idade é ${this.idade} nasci em ${this.nascimento}`);
     }
 }
 
@@ -44,14 +51,13 @@ class Pessoa4 {
 }
 
 
-const lucas = new Pessoa3();
-lucas.nome = 'Lucas Oliveira';
-lucas.idade = 23;
+const lucas = new Pessoa3('Mateus', 30);
+
 
 const pedro = new Pessoa4();
-pedro.nome = "Pedro Silva";
+pedro.nome = 'Pedro';
 pedro.idade = 28;
 
 
-console.log(lucas);
-console.log(pedro);
+lucas.descrever();
+pedro.descrever();
