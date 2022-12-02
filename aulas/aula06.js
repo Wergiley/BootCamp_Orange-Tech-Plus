@@ -61,3 +61,22 @@ pedro.idade = 28;
 
 lucas.descrever();
 pedro.descrever();
+
+// praticando a resolução do exercício da aula:
+
+function comparaPessoa(p1, p2) {
+    if(p1.idade > p2.idade) {
+        console.log(`${p1.nome} é mais velho(a) que ${p2.nome}`);
+    } else if(p1.idade == p2.idade) {
+        console.log(`${p1.nome} tem a mesma idade que ${p2.nome}`);
+    } else {
+        console.log(`${p2.nome} é mais velho(a) que ${p1.nome}`);
+    }
+}
+
+const paula = new Pessoa3('Paula', 40);
+const renan = new Pessoa3('Renan', 40);
+
+comparaPessoa(paula, renan);
+
+// Exercício da aula: 
