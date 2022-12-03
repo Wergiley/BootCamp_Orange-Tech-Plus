@@ -79,4 +79,4 @@ const renan = new Pessoa3('Renan', 40);
 
 comparaPessoa(paula, renan);
 
-// Exercício da aula: 
+// Exercício da aula: Na próxima aula...
