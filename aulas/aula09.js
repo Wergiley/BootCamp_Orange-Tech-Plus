@@ -23,3 +23,4 @@ for(let i2 = 0; i2 <= lista.length; i2++) {
         console.log(impar);
     }
 }
+
