@@ -1,0 +1,1 @@
+// configurando a máquina para o react
