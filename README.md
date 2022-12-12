@@ -1,5 +1,5 @@
 <div>
-<h1>Orange-Tech-Plus Finalizando... 18/12/22</h1>
+<h1>Orange-Tech-Plus Finalizado em 12/12/22</h1>
 <img src="./img/InsígniaOrangeTechInter.png" width="150px" align="right">
 
 <p>BootCamp Orange Tech Plus:  Jornada de 78hrs de front-end com React, html, css e javascript.<br>
